@@ -11,7 +11,7 @@ GIT_PROMPT_PREFIX="["                 # start of the git info string
 GIT_PROMPT_SUFFIX="]"                 # the end of the git info string
 GIT_PROMPT_SEPARATOR="|"              # separates each item
 
-GIT_PROMPT_BRANCH="${RED}"        # the git branch that is active in the current directory
+GIT_PROMPT_BRANCH="${IPURPLE}"        # the git branch that is active in the current directory
 GIT_PROMPT_STAGED="${GREEN}●"           # the number of staged files/directories
 GIT_PROMPT_CONFLICTS="${RED}✖"        # the number of files in conflict
 GIT_PROMPT_CHANGED="${ORANGE}✚"         # the number of changed files

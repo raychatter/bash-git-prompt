@@ -1,4 +1,4 @@
-# Informative git prompt for bash and fish
+# Informative git prompt for bash and fish... with a fabulous twist!
 
 This prompt is a port of the "Informative git prompt for zsh" which you can
 find [here](https://github.com/olivierverdier/zsh-git-prompt)
@@ -11,10 +11,14 @@ staged, changed, etc.
 
 `gitstatus.sh` added by [AKS](http://github.com/aks).
 
+I forked the original repo and integrated it with my rainbow prompt.
+
 ## Examples
+My rainbow prompt integration looks like this:
+![Rainbow_prompt](rainbow_prompt.png)
 
-The prompt may look like the following: 
 
+The default prompt may look like the following: 
 ![Example prompt](gitprompt.png)
 
 * ``(master↑3|✚1)``: on branch ``master``, ahead of remote by 3 commits, 1 file changed but not staged

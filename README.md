@@ -11,7 +11,7 @@ staged, changed, etc.
 
 `gitstatus.sh` added by [AKS](http://github.com/aks).
 
-I forked the original repo and integrated it with my rainbow prompt.
+**I forked the original repo and integrated it with my rainbow prompt.**
 
 ## Examples
 My rainbow prompt integration looks like this:
@@ -54,7 +54,7 @@ The symbols are as follows:
 ## Install
 
 - Clone this repository to your homedir
-   e.g. ``git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt``
+   e.g. ``git clone https://github.com/raychatter/bash-git-prompt.git .bash-git-prompt``
 - Source the file ``gitprompt.sh`` from your ``~/.bashrc`` config file:
 
 ```sh

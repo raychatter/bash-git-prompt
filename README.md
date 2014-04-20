@@ -18,7 +18,8 @@ My rainbow prompt integration looks like this:
 ![Rainbow_prompt](rainbow_prompt.png)
 
 
-The default prompt may look like the following: 
+The default prompt may look like the following:
+
 ![Example prompt](gitprompt.png)
 
 * ``(master↑3|✚1)``: on branch ``master``, ahead of remote by 3 commits, 1 file changed but not staged

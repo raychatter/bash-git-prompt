@@ -41,3 +41,14 @@ IWHITE="\[\033[0;97m\]"       # White
 ##### PRINT STRING IN RAINBOW x2 #####
 
 function FABULOUS() { echo -ne "${RED}$1$1${ORANGE}$1$1${YELLOW}$1$1${GREEN}$1$1${BLUE}$1$1${IPURPLE}$1$1${NO_COLOR}"; }
+
+# PS1 stuff
+local Toastline=`tput cup "$LINES"`  # Pin prompt to bottom of terminal
+local Time12a="\$(date +%H:%M)"
+local PathShort="\w"
+local CommandNumber="\!"
+local username="\u"
+local hostname="\h"
+
+# Rainbow Prompt
+RAINBOW_PROMPT="\n${RED}(${CommandNumber}) ${ORANGE}${username}${YELLOW} @ ${GREEN}${hostname}\n${BLUE}${PathShort}${NO_COLOR}"
